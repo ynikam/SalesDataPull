@@ -1,0 +1,28 @@
+﻿CREATE TABLE [Staging].[Orders] (
+    [Row ID]               INT            NULL,
+    [Order Priority]       NVARCHAR (255) NULL,
+    [Discount]             FLOAT (53)     NULL,
+    [Unit Price]           FLOAT (53)     NULL,
+    [Shipping Cost]        FLOAT (53)     NULL,
+    [Customer ID]          INT            NULL,
+    [Customer Name]        NVARCHAR (255) NULL,
+    [Ship Mode]            NVARCHAR (255) NULL,
+    [Customer Segment]     NVARCHAR (255) NULL,
+    [Product Category]     NVARCHAR (255) NULL,
+    [Product Sub-Category] NVARCHAR (255) NULL,
+    [Product Container]    NVARCHAR (255) NULL,
+    [Product Name]         NVARCHAR (255) NULL,
+    [Product Base Margin]  FLOAT (53)     NULL,
+    [Country]              NVARCHAR (255) NULL,
+    [Region]               NVARCHAR (255) NULL,
+    [State or Province]    NVARCHAR (255) NULL,
+    [City]                 NVARCHAR (255) NULL,
+    [Postal Code]          INT            NULL,
+    [Order Date]           DATETIME       NULL,
+    [Ship Date]            DATETIME       NULL,
+    [Profit]               FLOAT (53)     NULL,
+    [Quantity ordered new] INT            NULL,
+    [Sales]                FLOAT (53)     NULL,
+    [Order ID]             INT            NULL
+);
+
